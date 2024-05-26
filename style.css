@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 10px;
+    justify-content: center;
+    margin-top: 50px;
+}
+.cell {
+    width: 100px;
+    height: 100px;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+}
+.mole {
+    background-color: brown;
+}
+#score {
+    margin-top: 20px;
+    font-size: 24px;
+}
+#feedback {
+    font-size: 18px;
+    color: green;
+}
